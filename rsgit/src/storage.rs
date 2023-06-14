@@ -1,3 +1,5 @@
+pub mod file;
+
 pub trait Storage {
-    fn create_file(path: &str, content: String) -> Result<(), ()>;
+    fn create_file(&self, path: &str, content: String) -> Result<(), ()>;
 }

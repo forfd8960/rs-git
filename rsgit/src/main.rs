@@ -1,5 +1,6 @@
 pub mod repo;
 pub mod storage;
+pub mod worktree;
 
 fn main() {
     let sep = "-".repeat(6);
